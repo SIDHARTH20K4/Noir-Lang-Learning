@@ -1,5 +1,0 @@
-expected_address = "0xf6CB07258032bAC927fFa52FA1a50D13d3DcA8e7"
-hashed_message = "0x06d4eea0c10ebd7dab54b6e77c9a06f4d2c30dc857b074c310d7ed6f9b3a0e3c"
-pub_key_x = ""
-pub_key_y = ""
-signature = ""
