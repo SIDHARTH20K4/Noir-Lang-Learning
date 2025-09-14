@@ -1,12 +1,12 @@
-use dep::std;
-
+use dep::ecrecover;
 
 fn main(
-    hashed_message : [u8;32],
-    pub_key_x : [u8;32],
-    pub_key_y : [u8;32],
-    signature : [u8;64],
-    ) {
-    let valid_signature = std::ecdsa_secp256k1::verify_signature(pub_key_x, pub_key_y, signature, hashed_message);
-    assert(valid_signature);
+    pub_key_x: [u8; 32],
+    pub_key_y: [u8; 32],
+    signature: [u8; 64],
+    hashedMessage: [u8; 32],
+    expected_address: Field,
+) {
+    let address: Field = ecrecover::ecrecover(pub_key_x, pub_key_y, signature, hashedMessage);
+    assert(address == expected_address, "Address does not match expected address");
 }

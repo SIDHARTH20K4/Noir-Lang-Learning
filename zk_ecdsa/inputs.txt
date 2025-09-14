@@ -1,3 +1,4 @@
+expected_address = "0xb4967fa9b84b640667452760A245fE2FD4fA3D3f"
 hashed_message = "0x06d4eea0c10ebd7dab54b6e77c9a06f4d2c30dc857b074c310d7ed6f9b3a0e3c"
 pub_key_x = "0x8a957c2103283f2476dc11eaa894b5decf1c1d580949caf89fe53b50599dfcf67"
 pub_key_y = "0x4c15dbd99405afb2ca758c2196baf6b0f095d4e55cd822b78e0d6af9a1b8d0"
