@@ -1,0 +1,6 @@
+[package]
+name = "panagram"
+type = "bin"
+authors = [""]
+
+[dependencies]
